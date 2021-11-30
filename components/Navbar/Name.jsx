@@ -33,7 +33,7 @@ const Name = (props) => {
     setNames(arrayOfName[index]);
     console.log(index);
   }, 1000);
-  return <p data-aos="fade-down" data-aos-once="true">{names}</p>;
+  return (<p data-aos="fade-down" data-aos-once="true"><a href="#">{names}</a></p>)
 };
 
 export default Name;

@@ -14,7 +14,7 @@
 }
 .navBar p {
   justify-self: flex-start;
-  width: 40%;
+  width: 50%;
   color: var(--primary);
   font-family: var(--codeFont);
 }
@@ -23,7 +23,7 @@
 }
 .navBar li {
   display: inline;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 .navBar a {
   text-decoration: none;
