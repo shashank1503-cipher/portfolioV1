@@ -42,6 +42,7 @@ export default function Home() {
         />
         <meta property="og:url" content="https://www.shashankkumarsrivastava.tech/" />
         <meta property="og:type" content="website" />
+	<meta name="google-site-verification" content="2gE6r2Lha6MfqjriPS7jcocTxzrkQCRyjvnlKSqhhyw" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar />
