@@ -1,0 +1,46 @@
+.header {
+  padding-top: 5rem;
+  padding-left: 10rem;
+  display: flex;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+}
+.header h1 {
+  margin-top: 2%;
+  font-size: 4rem;
+  color: var(--primary);
+  font-family: var(--headFont);
+  font-weight: 700;
+}
+
+
+.header h2 {
+  color: var(--secondary);
+  font-size: 2.5rem;
+}
+.hello
+{
+  font-size: 1.5rem;
+}
+.header p {
+  margin-top: 2%;
+  width: 65%;
+  font-size: 1.75rem;
+}
+.header a
+{
+  border: var(--primary) 1px solid;
+  border-radius: 2px;
+  width:fit-content;
+  padding: 1%;
+  margin-top: 2%;
+  background-color: var(--third);
+
+}
+.header a:hover
+{
+  background-color: var(--fourth);
+}

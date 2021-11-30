@@ -1,0 +1,14 @@
+.footer {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.footer p
+{
+    font-family: var(--bodyFont2);
+}
+.footer a
+{
+    text-align: right;
+}

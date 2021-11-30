@@ -1,0 +1,84 @@
+.container {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-left: 10rem;
+}
+.heading {
+  font-family: var(--headFont);
+  color: var(--primary);
+  font-size: 3rem;
+}
+.skills {
+  margin-top: 2%;
+  margin-left: 10%;
+  display: flex;
+}
+.headers {
+  margin-right: 10%;
+}
+.noBullets {
+  list-style-type: none;
+}
+.content {
+  width: 50%;
+  
+}
+.content h3 {
+  color: var(--primary);
+  font-family: var(--headFont);
+  font-size: 1.5rem;
+}
+.listItem:hover {
+  cursor: pointer;
+}
+
+.listItem {
+  padding: 15%;
+  width: max-content;
+  border-left: var(--primary) 1px solid;
+  font-family: var(--bodyFont);
+  text-decoration: none;
+  color: var(--secondary);
+  font-size: 1.25rem;
+}
+
+.listItemActive {
+  padding: 15%;
+  width: max-content;
+  font-family: var(--bodyFont);
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: var(--primary);
+  background-color: var(--third);
+  border-left: var(--primary) 3px solid;
+}
+.listItemActive:hover {
+  cursor: pointer;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  width: 50rem;
+}
+.image {
+  margin: 2%;
+}
+.img {
+  transition: all 0.25s linear;
+}
+.caption {
+  margin-top: 10%;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.25s ease-in;
+}
+.img:hover {
+  transform: scale(0.9);
+}
+
+.image:hover > .caption {
+  visibility: visible;
+  opacity: 1;
+}

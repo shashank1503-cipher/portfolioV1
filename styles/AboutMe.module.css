@@ -1,0 +1,20 @@
+.container
+{
+    margin-top: 15%;
+    padding-left: 10rem;
+}
+.heading
+{
+    font-family: var(--headFont);
+    color: var(--primary);
+    font-size: 3rem;
+}
+.para
+{
+    font-weight: 300;
+    font-family: var(--bodyFont2);
+    width: 75%;
+    font-size: 1.25rem;
+    margin-top: 1%;
+    margin-left: 10%;
+}
