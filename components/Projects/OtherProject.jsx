@@ -3,7 +3,7 @@ import styles from "../../styles/Project.module.css";
 const OtherProject = (props) => {
   return (
     <div className={styles.otherProjectContainer}>
-      <a href={props.link}>
+      <a href={props.link} target="_blank" rel="noreferrer">
         <h3 className={styles.otherHeading}>{props.heading}</h3>
       </a>
       <p className={styles.otherTag}>{props.tag}</p>

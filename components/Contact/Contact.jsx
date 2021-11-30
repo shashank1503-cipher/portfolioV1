@@ -7,11 +7,11 @@ const Contact = () => {
             <p className={styles.contactContent}>I am actively looking for internship opportunities. Feel free to drop a mail in my Inbox.</p>
             <div className={styles.button}><a href="mailto:shashank.srivastava25sks@gmail.com">Say Hello!</a></div>
             <div className ={styles.socials}>
-                <a href = "https://github.com/shashank1503-cipher"><FiGithub /></a>
-                <a href = "https://www.linkedin.com/in/shashank-srivastava-a72899201/"><FiLinkedin/></a>
-                <a href = "https://twitter.com/Shashan87956421"><FiTwitter /></a>
-                <a href = "mailto:shashank.srivastava25sks@gmail.com"><FiMail /></a>
-                <a href = "https://www.instagram.com/beast_skas/"><FiInstagram /></a>
+                <a href = "https://github.com/shashank1503-cipher" target="_blank" rel="noreferrer"><FiGithub /></a>
+                <a href = "https://www.linkedin.com/in/shashank-srivastava-a72899201/" target="_blank" rel="noreferrer"><FiLinkedin/></a>
+                <a href = "https://twitter.com/Shashan87956421" target="_blank" rel="noreferrer"><FiTwitter /></a>
+                <a href = "mailto:shashank.srivastava25sks@gmail.com" target="_blank" rel="noreferrer"><FiMail /></a>
+                <a href = "https://www.instagram.com/beast_skas/" target="_blank" rel="noreferrer"><FiInstagram /></a>
             </div>
         </div>
     )
