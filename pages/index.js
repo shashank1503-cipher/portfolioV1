@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Shashank Srivastava</title>
+        <title>Shashank Kumar Srivastava</title>
 
         <meta
           name="description"
