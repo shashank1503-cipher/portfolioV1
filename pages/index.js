@@ -22,6 +22,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Shashank Srivastava</title>
+
         <meta
           name="description"
           content="Hello I am Shashank Kumar Srivastava, Sophomore from IIIT Kottayam, who likes to code. Currently a python based full stack Web developer who also has a hand in JavaScript based stacks"
@@ -31,6 +32,16 @@ export default function Home() {
           content="Web Developer,Python,Django,JavaScript,Shashank Kumar Srivastava"
         />
         <meta name="author" content="Shashank Kumar Srivastava" />
+        <meta
+          property="og:title"
+          content="Shashank Kumar Srivastava"
+        />
+        <meta
+          property="og:description"
+          content="Hello I am Shashank Kumar Srivastava, Sophomore from IIIT Kottayam, who likes to code. Currently a python based full stack Web developer who also has a hand in JavaScript based stacks"
+        />
+        <meta property="og:url" content="https://www.shashankkumarsrivastava.tech/" />
+        <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar />
