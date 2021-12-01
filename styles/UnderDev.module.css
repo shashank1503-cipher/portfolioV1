@@ -1,0 +1,43 @@
+.header {
+
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+  }
+  .header h1 {
+    margin-top: 2%;
+    font-size: 3rem;
+    color: var(--primary);
+    font-family: var(--headFont);
+    font-weight: 700;
+  }
+  
+  
+  .header h2 {
+    color: var(--secondary);
+    font-size: 1.5rem;
+  }
+  .hello
+  {
+    font-size: 1rem;
+  }
+  .header p {
+    margin-top: 2%;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  @media (max-width:992px) {
+    .header
+    {
+        display: flex;
+    }
+  }

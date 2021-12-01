@@ -45,3 +45,9 @@
 {
     color: var(--primary);
 }
+@media (max-width:992px) {
+  .contactContainer
+  {
+      display: none;
+  }
+}

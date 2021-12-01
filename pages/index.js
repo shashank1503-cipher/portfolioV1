@@ -11,10 +11,11 @@ import Experience from "../components/Experience/Experience";
 import Project from "../components/Projects/Project";
 import Contact from "../components/Contact/Contact.jsx";
 import Footer from "../components/Footer/Footer";
+import UnderDev from "../components/UnderDev/UnderDev";
 export default function Home() {
   useEffect(() => {
     AOS.init({
-      disable: "mobile",
+      
     });
     window.addEventListener("load", AOS.refresh);
   }, []);
@@ -55,6 +56,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
+      <UnderDev />
       <Navbar />
       <Hero />
       <AboutMe />

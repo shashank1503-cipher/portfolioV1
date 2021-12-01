@@ -44,3 +44,9 @@
 {
   background-color: var(--fourth);
 }
+@media (max-width:992px) {
+  .header
+  {
+      display: none;
+  }
+}
