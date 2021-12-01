@@ -31,7 +31,6 @@ const Name = (props) => {
   useInterval(() => {
     var index = Math.floor(Math.random() * 7);
     setNames(arrayOfName[index]);
-    console.log(index);
   }, 1000);
   return (<p data-aos="fade-down" data-aos-once="true"><a href="#">{names}</a></p>)
 };
