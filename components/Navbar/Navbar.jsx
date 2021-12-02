@@ -87,7 +87,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1zflinLeSMXiW9VwUBiTtoqi4qNh2SE-g/view?usp=sharing"
               className={styles.hover_underline_animation}
               data-aos="fade-down"
               data-aos-delay="350"
