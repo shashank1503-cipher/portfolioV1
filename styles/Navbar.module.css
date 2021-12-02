@@ -149,7 +149,7 @@
     display: flex;
     justify-content: flex-end;
     width: 95%;
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--text);
     z-index: 1000;
   }
