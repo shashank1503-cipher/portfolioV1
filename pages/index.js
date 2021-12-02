@@ -56,7 +56,6 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <UnderDev />
       <Navbar />
       <Hero />
       <AboutMe />

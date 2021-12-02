@@ -59,6 +59,38 @@
 @media (max-width:992px) {
   .container
   {
-      display: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .heading
+  {
+    text-align: center;
+  }
+  .jobs
+  {
+    margin-left: 20%;
+  }
+}
+@media (max-width:600px) {
+  .jobs
+  {
+    margin-left: 15%;
+  }
+}
+@media (max-width:540px) {
+  .jobs
+  {
+    margin-left: 10%;
+    padding: 0;
+  }
+}
+@media (max-width:440px) {
+  .jobs
+  {
+    margin-left: 2%;
+    padding: 0;
   }
 }

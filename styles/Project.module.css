@@ -97,19 +97,23 @@
   font-family: var(--bodyFont2);
   color: var(--secondary);
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .container {
-    margin: 2%;
+    margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
   }
   .projectContainer {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     margin-left: 1%;
     overflow: hidden;
     justify-content: center;
+    align-items: center;
   }
   .imageWrapper {
     width: 25rem;
@@ -128,10 +132,8 @@
     transform: translateX(0%);
     background-color: var(--fourth);
   }
-}
-@media (max-width:992px) {
-  .container
+  .otherProjectContainer
   {
-      display: none;
+    margin-bottom: 10%;
   }
 }

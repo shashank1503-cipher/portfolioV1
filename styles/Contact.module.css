@@ -45,9 +45,16 @@
 {
     color: var(--primary);
 }
-@media (max-width:992px) {
+@media (max-width: 992px) {
+  .button
+  {
+    width: 50%;
+  }
+  
+}
+@media (max-width: 600px) {
   .contactContainer
   {
-      display: none;
+    width: 90%;
   }
 }

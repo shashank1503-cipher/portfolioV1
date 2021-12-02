@@ -21,7 +21,6 @@
 }
 .content {
   width: 50%;
-  
 }
 .content h3 {
   color: var(--primary);
@@ -59,12 +58,18 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 5%;
-  width: 50rem;
+  width: 100%;
 }
 .image {
   margin: 2%;
 }
-.img {
+.imageWrapper
+{
+  position: relative;
+  height: 5rem;
+  width: 5rem;
+}
+.imageWrapper {
   transition: all 0.25s linear;
 }
 .caption {
@@ -74,7 +79,7 @@
   opacity: 0;
   transition: visibility 0s, opacity 0.25s ease-in;
 }
-.img:hover {
+.imageWrapper:hover {
   transform: scale(0.9);
 }
 
@@ -82,9 +87,50 @@
   visibility: visible;
   opacity: 1;
 }
-@media (max-width:992px) {
-  .container
+@media (max-width: 992px) {
+  .container {
+    padding-left: 0;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+  }
+  .skills {
+    flex-direction: column;
+    margin-left: 5%;
+    justify-content: center;
+  }
+  .headers
   {
-      display: none;
+    margin-right: 5%;
+    overflow-x: scroll;
+  }
+  .noBullets {
+    display: flex;
+  }
+  .listItem
+  {
+    padding: 5%;
+    border-bottom: var(--primary) 1px solid;
+  }
+  .listItemActive
+  {
+    padding: 5%;
+    border-left: var(--primary) 1px solid;
+    border-bottom: var(--primary) 3px solid;
+  }
+  .content
+  {
+    justify-content: center;
+    width: 100%;
+  }
+  .images
+  {
+    width: 90%;
+    justify-content: center;
+  }
+  .imageWrapper
+  {
+    height: 3rem;
+    width: 3rem;
   }
 }
