@@ -127,10 +127,15 @@
   {
     width: 90%;
     justify-content: center;
+    align-items: center;
   }
   .imageWrapper
   {
     height: 3rem;
     width: 3rem;
+  }
+  .caption
+  {
+    display: none;
   }
 }

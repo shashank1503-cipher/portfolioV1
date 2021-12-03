@@ -73,6 +73,12 @@
   .jobs
   {
     margin-left: 20%;
+    width: 100%;
+  }
+  .logo
+  {
+    width: 4rem;
+    height: 4rem;
   }
 }
 @media (max-width:600px) {
@@ -89,9 +95,23 @@
   }
 }
 @media (max-width:440px) {
+
   .jobs
   {
     margin-left: 2%;
     padding: 0;
+  }
+  .jobTitle
+  {
+    font-size: 0.75rem;
+  }
+
+  .jobBody h3
+  {
+    font-size: 0.7rem;
+  }
+  .jobBody p
+  {
+    font-size: 0.6rem;
   }
 }
