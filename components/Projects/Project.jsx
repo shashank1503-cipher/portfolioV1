@@ -11,10 +11,12 @@ const Project = () => {
             {ProjectData.map((val) =>(
                 <ProjectContainer key = {val.id} heading = {val.heading} desc = {val.desc} src = {val.src} link = {val.link} tag = {val.tag}/>
             ))}
-             <h3 className={styles.tagline}>Other Noteworthy Projects</h3>
+            <div data-aos = "fade-right">
+             <h3 className={styles.tagline} >Other Noteworthy Projects</h3>
              {OtherProjectData.map((val) =>(
                 <OtherProject key = {val.id} heading = {val.heading} desc = {val.desc} link = {val.link} tag = {val.tag}/>
             ))}
+            </div>
         </div>
     )
 }

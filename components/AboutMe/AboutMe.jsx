@@ -7,7 +7,7 @@ const AboutMe = () => {
     <div id="AboutMe" className={styles.container} data-aos="fade-right">
       <h2 className={styles.heading}>About Me</h2>
       <p className={styles.para}>
-        I am a Sophomore at{" "}
+        I am a Junior at{" "}
         <span style={{ fontWeight: "bold" }}>
           Indian Institute of Information Technology, Kottayam
         </span> currently pursuing my bachelors in Computer Science and Engineering.

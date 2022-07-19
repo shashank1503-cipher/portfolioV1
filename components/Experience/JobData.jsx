@@ -1,29 +1,23 @@
 const JobData = [
-  {
-    id: "1",
-    companyName: "Google Developer Student Clubs - IIIT Kottayam",
-    jobTitle: "Technical Lead",
-    logoSrc:
-      "https://res.cloudinary.com/dpjf6btln/image/upload/v1638072091/1_GUnXaV_rVzuce67X__7G6w_2x_tww2ef.png",
-    desc: "Facilitated Events organised by GDSC - IIIT Kottayam",
-  },
-
-  {
-    id: "2",
-    companyName: "BetaLabs",
-    jobTitle: "Web Developer",
-    logoSrc:
-      "https://res.cloudinary.com/dpjf6btln/image/upload/v1638072634/eIfrJf10_400x400_xseols.jpg",
-    desc: "Worked as a ReactJS Developer",
-  },
-
-  {
-    id: "3",
-    companyName: "Dhruva - IIIT Kottayam",
-    jobTitle: "Event Manager",
-    logoSrc:
-      "https://res.cloudinary.com/dpjf6btln/image/upload/v1638077101/android-chrome-192x192_llo1qg.png",
-    desc: "Managed Web Dev Event which had more than 500 registrations",
-  },
-];
-export default JobData;
+    {
+      id: "1",
+      companyName: "Reflections Info Systems Pvt. Ltd.",
+      jobTitle: "Data Science Intern",
+      logoSrc:
+        "https://res.cloudinary.com/dpjf6btln/image/upload/v1655265573/1625126018698_k4jcvt.jpg",
+      desc: "Working on car damage detection.",
+      date:"June 2022 - Present"
+    },
+  
+    {
+      id: "2",
+      companyName: "Proffus Pvt. Ltd.",
+      jobTitle: "Backend Developer Intern",
+      logoSrc:
+        "http://res.cloudinary.com/dpjf6btln/image/upload/c_crop,w_342/v1655266076/index_vjwgcz.jpg",
+      desc: "Worked on AWS Lambda Functions, to generate backend APIs used by Ztocks App.",
+      date:"Jan 2022 - March 2022"
+    },
+  ];
+  export default JobData;
+  

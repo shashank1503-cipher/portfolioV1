@@ -2,7 +2,7 @@ import styles from "../../styles/Project.module.css";
 import Image from "next/image";
 const ProjectContainer = (props) => {
   return (
-    <div className={styles.projectContainer}>
+    <div className={styles.projectContainer} >
       <a href={props.link} target="_blank" rel="noreferrer">
         <div className={styles.imageWrapper}>
           <Image src={props.src} layout={"fill"} alt={props.heading} placeholder={'blur'} blurDataURL='/pngegg.png' />

@@ -10,6 +10,7 @@ module.exports = {
       "images.unsplash.com",
       "c.tenor.com",
       "res.cloudinary.com",
+      "res-console.cloudinary.com",
       "drive.google.com",
     ],
   },

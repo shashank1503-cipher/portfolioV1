@@ -1,5 +1,6 @@
 import styles from "../../styles/Contact.module.css";
 import { FiGithub,FiTwitter,FiLinkedin,FiInstagram,FiMail } from 'react-icons/fi';
+import { FaDev } from 'react-icons/fa';
 const Contact = () => {
     return (
         <div className={styles.contactContainer} data-aos="fade-up" id = "Contact">
@@ -11,7 +12,8 @@ const Contact = () => {
                 <a href = "https://www.linkedin.com/in/shashank-srivastava-a72899201/" target="_blank" rel="noreferrer"><FiLinkedin/></a>
                 <a href = "https://twitter.com/Shashan87956421" target="_blank" rel="noreferrer"><FiTwitter /></a>
                 <a href = "mailto:shashank.srivastava25sks@gmail.com" target="_blank" rel="noreferrer"><FiMail /></a>
-                <a href = "https://www.instagram.com/beast_skas/" target="_blank" rel="noreferrer"><FiInstagram /></a>
+                <a href = "https://dev.to/shashank1503cipher" target="_blank" rel="noreferrer"><FaDev /></a>
+                <a href = "https://www.instagram.com/shashank1503_/" target="_blank" rel="noreferrer"><FiInstagram /></a>
             </div>
         </div>
     )
