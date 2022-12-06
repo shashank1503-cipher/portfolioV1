@@ -13,19 +13,23 @@ const Navbar = () => {
 
   useEffect(() => {
     var prevScrollpos = window.pageYOffset;
+    let width = screen.width;
+    console.log(width)
     window.onscroll = function () {
-      var currentScrollPos = window.pageYOffset;
-      if (document.getElementById("navbar").style.display == "none") {
-      } else {
-        if (prevScrollpos > currentScrollPos) {
-          document.getElementById("navbar").style.top = "0";
+      if (width > 992) {
+        var currentScrollPos = window.pageYOffset;
+        if (document.getElementById("navbar").style.display == "none") {
         } else {
-          document.getElementById("navbar").style.top = "-80px";
-          setmenuOpacity(0);
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-80px";
+            setmenuOpacity(0);
+          }
         }
-      }
 
-      prevScrollpos = currentScrollPos;
+        prevScrollpos = currentScrollPos;
+      }
     };
   });
   return (
@@ -117,7 +121,7 @@ const Navbar = () => {
           className={styles.sideNav}
           style={{ width: `${menuOpacity ? "100%" : "0%"}` }}
         >
-          <div className={styles.closeButton}>
+          <div className={styles.closeButton} style={{ opacity: `${menuOpacity ? "1" : "0"}` }}>
             <a href="#" onClick={closeNav}>
               &times;
             </a>

@@ -73,7 +73,7 @@
   .jobs
   {
     margin-left: 20%;
-    width: 100%;
+    /* width: 100%; */
   }
   .logo
   {
@@ -84,23 +84,23 @@
 @media (max-width:600px) {
   .jobs
   {
-    margin-left: 15%;
+    justify-content: center;
   }
 }
 @media (max-width:540px) {
-  .jobs
+  /* .jobs
   {
     margin-left: 10%;
     padding: 0;
-  }
+  } */
 }
 @media (max-width:440px) {
 
-  .jobs
+  /* .jobs
   {
     margin-left: 2%;
     padding: 0;
-  }
+  } */
   .jobTitle
   {
     font-size: 0.75rem;

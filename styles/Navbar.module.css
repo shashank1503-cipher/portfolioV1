@@ -12,26 +12,32 @@
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
+
 .navBar p {
   justify-self: flex-start;
   width: 50%;
   color: var(--primary);
   font-family: var(--codeFont);
 }
+
 .navBar ul {
   justify-self: flex-end;
 }
+
 .navBar li {
   display: inline;
   padding: 1.5rem;
 }
+
 .navBar a {
   text-decoration: none;
   color: var(--secondary);
 }
+
 .navBar a:hover {
   color: var(--primary);
 }
+
 .hover_underline_animation {
   display: inline-block;
   position: relative;
@@ -57,8 +63,8 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.sideNav
-{
+
+.sideNav {
   padding: 0;
   margin: 0;
   position: absolute;
@@ -77,80 +83,90 @@
 .sideNav ul {
   justify-self: flex-end;
 }
+
 .sideNav li {
   display: inline;
   padding: 2rem;
 }
+
 .mobileNavbar a {
   text-decoration: none;
   color: var(--secondary);
 }
+
 .sideNav a:hover {
   color: var(--primary);
 }
-.menu
-{
+
+.menu {
   transition: all 0.5s ease;
 }
-.openButton
-{
+
+.openButton {
   position: fixed;
   display: none;
+
+  text-align: center;
+
+  background-color: var(--fourth);
+  z-index: 100;
+
 }
+
 @media (max-width:1378px) {
-  .navBar p
-  {
+  .navBar p {
     width: 45%;
   }
 }
+
 @media (max-width:1253px) {
-  .navBar p
-  {
+  .navBar p {
     width: 35%;
   }
 }
+
 @media (max-width:1068px) {
-  .navBar li
-  {
+  .navBar li {
     padding: 1rem;
   }
 }
+
 @media (max-width:992px) {
 
-  .navBar
-  {
+  .navBar {
     display: none;
-    
+
   }
-  .closeButton
-  {
+
+  .closeButton {
     display: flex;
     justify-content: flex-end;
     width: 95%;
     font-size: 2rem;
     color: var(--text);
+    /* padding-left: 1.5rem; */
   }
-  .sideNav li
-  {
+
+  .sideNav li {
     display: block;
   }
-  .menu
-  {
+
+  .menu {
     opacity: 0;
   }
-  .sideNav
-  {
+
+  .sideNav {
     display: flex;
     font-size: 2rem;
   }
-  .openButton
-  {
+
+  .openButton {
     position: fixed;
     display: flex;
     justify-content: flex-end;
-    width: 95%;
+    width: 100%;
     font-size: 2rem;
     color: var(--text);
-    z-index: 1000;
+    padding-right: 1.5rem;
   }
 }

@@ -10,7 +10,7 @@ const Contact = () => {
             <div className ={styles.socials}>
                 <a href = "https://github.com/shashank1503-cipher" target="_blank" rel="noreferrer"><FiGithub /></a>
                 <a href = "https://www.linkedin.com/in/shashank-srivastava-a72899201/" target="_blank" rel="noreferrer"><FiLinkedin/></a>
-                <a href = "https://twitter.com/Shashan87956421" target="_blank" rel="noreferrer"><FiTwitter /></a>
+                <a href = "https://twitter.com/shashank1503_" target="_blank" rel="noreferrer"><FiTwitter /></a>
                 <a href = "mailto:shashank.srivastava25sks@gmail.com" target="_blank" rel="noreferrer"><FiMail /></a>
                 <a href = "https://dev.to/shashank1503cipher" target="_blank" rel="noreferrer"><FaDev /></a>
                 <a href = "https://www.instagram.com/shashank1503_/" target="_blank" rel="noreferrer"><FiInstagram /></a>

@@ -56,7 +56,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <AboutMe />
-      <Skills />
+      {/* <Skills /> */}
       <Experience />
       <Project />
       <Contact />
