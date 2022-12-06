@@ -15,7 +15,7 @@ import UnderDev from "../components/UnderDev/UnderDev";
 export default function Home() {
   useEffect(() => {
     AOS.init({
-      
+
     });
     window.addEventListener("load", AOS.refresh);
   }, []);
@@ -43,10 +43,7 @@ export default function Home() {
           content="https://www.shashankkumarsrivastava.tech/"
         />
         <meta property="og:type" content="website" />
-        <meta
-          name="google-site-verification"
-          content="2gE6r2Lha6MfqjriPS7jcocTxzrkQCRyjvnlKSqhhyw"
-        />
+        <meta name="google-site-verification" content="e2Wfce0nZjn2ET-p0yZXz_vLxX4gaP6V4jq1viJkWUM" />
         <meta property="og:site_name" content="Shashank Kumar Srivastava" />
         <meta property="og:locale" content="en_US" />
         <meta itemProp="name" content="Shashank Kumar Srivastava" />
