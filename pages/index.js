@@ -40,7 +40,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="https://www.shashankkumarsrivastava.tech/"
+          content="https://www.shashanksrivastava.co/"
         />
         <meta property="og:type" content="website" />
         <meta name="google-site-verification" content="e2Wfce0nZjn2ET-p0yZXz_vLxX4gaP6V4jq1viJkWUM" />
