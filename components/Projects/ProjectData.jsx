@@ -5,7 +5,7 @@ const ProjectData =
             heading: 'BigSy',
             tag: 'Made using ReactJS,FastAPI and ElasticSearch',
             github: 'https://github.com/Techocrat/bigsy-frontend',
-            desc: 'A web application which helps you to find the best places to eat, drink and shop in your city',
+            desc: 'Solution to Problem Statement AT980 - Big Data Search, was able to search over 1.5 Million Documents spread over 30 File Formats in an average query time of 150ms',
             src: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1670314124/Screenshot_2022-12-06_133817_b3jay7.png',
         },
         {
