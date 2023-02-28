@@ -1,6 +1,11 @@
 import styles from "../../styles/Contact.module.css";
+<<<<<<< HEAD
 import { FiGithub, FiTwitter, FiLinkedin, FiMail } from 'react-icons/fi';
 import { SiLeetcode } from 'react-icons/si'
+=======
+import { FiGithub,FiTwitter,FiLinkedin,FiInstagram,FiMail } from 'react-icons/fi';
+// import {SiLeetcode} from 'react=icons/si';
+>>>>>>> 809e56b1410771dcceda0c83dbaa4a3d9fc3e93f
 import { FaDev } from 'react-icons/fa';
 const Contact = () => {
     return (
