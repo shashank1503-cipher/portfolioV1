@@ -1,5 +1,6 @@
 import styles from "../../styles/Contact.module.css";
 import { FiGithub,FiTwitter,FiLinkedin,FiInstagram,FiMail } from 'react-icons/fi';
+import {SiLeetcode} from 'react=icons/si';
 import { FaDev } from 'react-icons/fa';
 const Contact = () => {
     return (
@@ -13,7 +14,7 @@ const Contact = () => {
                 <a href = "https://twitter.com/shashank1503_" target="_blank" rel="noreferrer"><FiTwitter /></a>
                 <a href = "mailto:shashank.srivastava25sks@gmail.com" target="_blank" rel="noreferrer"><FiMail /></a>
                 <a href = "https://dev.to/shashank1503cipher" target="_blank" rel="noreferrer"><FaDev /></a>
-                <a href = "https://www.instagram.com/shashank1503_/" target="_blank" rel="noreferrer"><FiInstagram /></a>
+                <a href = "https://www.instagram.com/shashank1503_/" target="_blank" rel="noreferrer"><SiLeetcode /></a>
             </div>
         </div>
     )
